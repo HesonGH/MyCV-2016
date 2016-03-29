@@ -1,0 +1,610 @@
+@charset "gb2312";body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+fieldset,img,input{border:medium none;outline:none;outline-style:none;outline-width:medium}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;line-height:1.2;}
+table{border-collapse:collapse}
+html{_background:url(about:blank);}
+a{color:#222;text-decoration:none}
+a:hover{color:#0360AF;text-decoration:underline}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden;}
+em,i{font-style:normal;}
+.red{color:#F00!important;}
+.green{color:#459935!important;}
+.blue{color:#0360AF!important;}
+.fl{float:left}
+.fr{float:right}
+.f14{font-size:14px}
+body{font-size:14px;font-family:Microsoft Yahei,"Œ¢»Ì—≈∫⁄","ÀŒÃÂ";/*background:url(http://img.yjbys.com/my/person/body_bg.png) no-repeat scroll 50% -8px #EDEFEF;*/
+background:url(http://img.yjbys.com/my/person/bg_body.jpg) repeat #FFF;color:#333;}
+.w-index{width:1000px;clear:both;margin:0 auto;}
+.headline{float:left;width:100%;background:#459935;height:35px;}
+.topnav{float:left;width:100%}
+.topnav a{color:#FFF;height:35px;line-height:38px;padding:0 15px;float:left;}
+a.start{position:relative;left:-15px;margin-right:-15px;}
+.topnav a.home,.topnav a:hover{background-color:#37712B;text-decoration:none}
+a.mtouch{float:right;}
+.headbox{float:left;width:100%;}
+.header{float:left;width:100%;}
+div.logo_yjbys{float:left;background:url(http://img.yjbys.com/my/person/yjbys_logo.gif) no-repeat left center;width:370px;height:60px;margin-top:20px;padding-bottom:10px;position:relative}
+div.logo_yjbys a{background:url(http://img.yjbys.com/my/person/person_logo.gif) no-repeat;width:158px;height:60px;float:right}
+.pic_scroll{float:left;margin:22px 0 0 80px;position:relative;}
+.pic_scroll a{position:absolute;left:0;top:0}
+.login_info{float:right;margin-top:28px;position:relative;}
+.login_info a{color:#222222;margin:0 6px;}
+a.avatar img{height:38px;width:38px;line-height:38px;box-shadow:1px 1px 1px #EEE;border-radius:2px;top:5px;position:relative}
+a.inbox{background:url(http://img.yjbys.com/my/person/icon_email.png) 0 3px no-repeat;display:inline-block;height:23px;overflow:hidden;vertical-align:middle;width:23px;}
+a.inbox i.count{background:url(http://img.yjbys.com/my/person/letter-count.gif) no-repeat 0 0;position:absolute;top:14px;right:48px;width:20px;height:20px;line-height:20px;text-align:center;color:#FFF;font-size:10px;font-family:arial;font-style:normal}
+.nav{background-color:#3FB10E;border-radius:3px;height:42px;float:left;width:100%;box-shadow:0 2px 4px rgba(0,0,0,0.24),0 2px 4px rgba(0,0,0,0.05) inset;}
+.nav_item{display:inline-block;letter-spacing:normal;float:left;width:14%;}
+.nav_item a{color:#FFFFFF;display:block;line-height:42px;text-align:center;text-decoration:none;border-right:1px solid #099300}
+.nav .home a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 28px 12px no-repeat;_background:none;padding-left:24px;}
+.nav .resume a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 27px -34px no-repeat;_background:none;padding-left:24px;}
+.nav .apply{width:17%}
+.nav .apply a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 30px -158px no-repeat;_background:none;padding-left:24px;}
+.nav .download{width:18%}
+.nav .download a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 23px -201px no-repeat;_background:none;padding-left:24px;}
+.nav .invite{width:16%}
+.nav .invite a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 27px -74px no-repeat;_background:none;padding-left:24px;}
+.nav .shezhi{float:right;width:11%}
+.nav .shezhi a{background:url(http://img.yjbys.com/my/person/nav_icon.png) 0 -128px no-repeat;_background:none;text-align:left;height:22px;padding-left:24px;line-height:24px;margin-top:10px;border:0;}
+.nav_item a:hover,.selected a{background-color:#0AA800 !important;_background-color:#3FB10E !important;text-decoration:none;color:#FFF;}
+.nav .shezhi a:hover{background-color:#3FB10E!important;}
+.home a,.home a:hover{border-radius:4px 0 0 4px;}
+.BannerShow{float:left;width:100%;margin-top:15px;}
+.BannerShow img{border-radius:5px;box-shadow:1px 2px 2px #DDD}
+.simple_box{background-color:#F3F3F3;border:1px solid #D0D1D3;border-radius:3px;color:#222222;line-height:40px;_padding:10px 0;margin:5px 0 15px;float:left;width:99.8%}
+.icon_speak{background:url(http://img.yjbys.com/my/person/icon_speak.png) no-repeat scroll 0 0;display:inline-block;height:20px;vertical-align:middle;width:30px;margin-left:20px;margin-top:4px}
+.main{float:left;width:100%;border-radius:3px;margin:10px 0 20px;position:relative}
+.main_title{float:left;width:100%;height:46px;border-radius:5px 5px 0 0;background:url(http://img.yjbys.com/my/person/main_tbg.gif) repeat-x 0 0;}
+.headnav{float:left;width:100%;margin-top:20px;}
+.headnav a{float:left;width:185px;height:50px;line-height:50px;font-size:24px;color:#666}
+.headnav a.now,.headnav a:hover{text-decoration:none;color:#459935;}
+i.icon_home{background:url(http://img.yjbys.com/my/person/icon_home_0.gif) no-repeat left center;height:50px;width:40px;float:left}
+.now .icon_home,.headnav a:hover .icon_home{background:url(http://img.yjbys.com/my/person/icon_home.gif) no-repeat left center;}
+i.icon_resume{background:url(http://img.yjbys.com/my/person/icon_resume_0.gif) no-repeat left center;height:50px;width:40px;float:left}
+.now .icon_resume,.headnav a:hover .icon_resume{background:url(http://img.yjbys.com/my/person/icon_resume.gif) no-repeat left center;}
+.content_main{float:left;width:70%;}
+.search{float:left;width:95.5%;background:url(http://img.yjbys.com/my/person/search_bg.gif) -15px 5px no-repeat #FAFAFA;border:1px solid #DDD;border-radius:3px;padding:20px 0 20px 30px;margin:5px 0;position:relative;}
+.search_city{border:1px solid #CCC;background:#FFF;box-shadow:2px 2px 2px #EEEEEE inset;border-radius:1px;float:left;height:38px;width:20%;}
+.search_city input{background:none repeat scroll 0 center rgba(0,0,0,0);float:left;height:26px;line-height:24px;padding:6px;padding-left:10px;}
+.search_city .js{background:url(http://img.yjbys.com/2013/bg.gif) no-repeat scroll -132px -50px #F6F6F6;border-left:1px solid #ddd;border-right:1px solid #ddd;cursor:pointer;float:right;height:38px;width:20%;position:relative;z-index:2;right:-2px}
+.search_query{border:1px solid #CCC;background:#FFF;box-shadow:0px 2px 2px #EEEEEE inset;border-radius:1px;float:left;height:38px;position:relative;border-left:0;left:-2px;width:60%;z-index:1}
+.search_query input{background:none repeat scroll 0 center rgba(0,0,0,0);float:left;height:26px;line-height:24px;padding:6px;padding-left:15px;width:92%;}
+.search_btn{background:#F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;color:#FFFFFF;cursor:pointer;float:left;font:18px/40px "Œ¢»Ì—≈∫⁄";height:40px;margin-left:5px;width:95px;}
+.condition{color:#666666;height:28px;line-height:28px;padding-top:5px;float:left;width:95%;overflow:hidden}
+.condition a{color:#069;display:inline-block;padding:0 6px;height:16px;line-height:16px;border-radius:2px;margin-right:10px;}
+.condition a code{color:#333;font-weight:100;padding:0 5px;position:relative;top:1px;}
+.box{float:left;width:100%;border-radius:3px;margin:12px 0}
+.box_line{background:url(http://img.yjbys.com/my/person/hd_bg.png) repeat #E9E9E9;border:1px solid #D3D3D3;box-shadow:0 1px 0 0 #FCFCFC inset;float:left;width:99.8%;height:40px;}
+.box_line .tt{background:#FFFFFF;line-height:39px;border-right:1px solid #D3D3D3;border-top:1px solid #D3D3D3;box-shadow:1px 0 0 0 rgba(255,255,255,0.5);color:#222222;float:left;outline:0 none;/*top:-1px;position:relative;*/
+margin-top:-1px;padding:2px 40px 0;color:#333;}
+.box_line .bz{float:left;font-size:12px;margin-top:15px;margin-left:15px;color:#555;}
+.box_line .mo{float:right;padding:0 10px;position:relative;top:14px;}
+.mo a{color:#999;font-size:12px}
+.mo a:hover{color:#0360AF;}
+.diy-setup{background:url(http://img.yjbys.com/my/person/icon-diy.gif) no-repeat -44px 2px;padding-left:23px;margin-right:6px;}
+.diy-setup:hover{background:url(http://img.yjbys.com/my/person/icon-diy.gif) no-repeat -44px -33px;}
+.diy-close{background:url(http://img.yjbys.com/my/person/icon-diy.gif) no-repeat 0 3px;display:inline-block;width:12px;height:12px;margin-left:10px;position:relative;top:0px;top:-6px\9;top:-6px\0;*top:-6px;_top:-6px;}
+.diy-close:hover{background:url(http://img.yjbys.com/my/person/icon-diy.gif) no-repeat 0 -34px;}
+.diy-navs{float:left;width:94.1%;background:#fff;border:1px solid #D3D3D3;border-top:0;padding:8px 20px 10px;_padding:15px 20px 2px;border-radius:0 0 3px 3px}
+.diy-navs li{float:left;height:32px;line-height:32px;width:155px;float:left;overflow:hidden}
+.diy-navs li a{color:#444;padding-left:5px;float:left}
+.diy-navs li img{margin-top:8px;float:left;}
+.setup-diy{float:left;width:100%;margin:20px;}
+.setup-diy img{position:relative;top:3px;left:-5px;}
+.setup-diy a{font-size:16px;}
+.setup-diy a.open{background:url(http://img.yjbys.com/my/person/diy-setup.gif) 0 0 no-repeat;height:30px;width:75px;display:inline-block}
+.setup-diy a.close{background:url(http://img.yjbys.com/my/person/diy-setup.gif) 0 -58px no-repeat;height:30px;width:75px;display:inline-block}
+.box_list{float:left;width:99.8%;_width:99.4%;background:#fff;border:1px solid #D3D3D3;border-top:0;padding-bottom:15px;border-radius:0 0 3px 3px}
+.box_list li{width:97%;float:left;border-bottom:1px dashed #DDDCDC;margin-left:11px;_margin-left:6px;_margin-right:6px;}
+.box_list li .box_msg{background:#FFF;display:block;line-height:38px;height:38px;padding-top:5px;padding-left:5px;cursor:default;outline:none}
+.box_list li a:hover{background:#F3F3F3;text-decoration:none}
+.box_list li.zhankai a{background:#F3F3F3;border-bottom:1px solid #DDDCDC}
+.box_list font.companyname{color:#F60;padding:0 5px;}
+.box_list font.recruitment{color:#315AAA;font-weight:800;padding:0 5px;}
+.box_list code.time{color:#7B7B7B;font-weight:normal;margin-right:10px;float:right}
+.box_list i.apply{background:url(http://img.yjbys.com/my/person/icon_apply.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:12px;_margin-top:6px;margin-left:8px;width:25px;position:absolute}
+.box_list i.offer{background:url(http://img.yjbys.com/my/person/icon_offer.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:9px;_margin-top:0px;margin-left:8px;width:35px;position:absolute}
+.box_list i.edit{background:url(http://img.yjbys.com/my/person/icon_edit.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:11px;margin-top:0px\9;margin-top:0px\0;*margin-top:0px;_margin-top:0px;margin-left:8px;width:25px;position:absolute}
+.box_list i.collect{background:url(http://img.yjbys.com/my/person/icon_collect.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:12px;_margin-top:4px;margin-left:8px;width:25px;position:absolute}
+.box_list i.shuaxin{background:url(http://img.yjbys.com/my/person/icon_shuaxin.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:11px;_margin-top:3px;margin-left:8px;width:25px;position:absolute}
+.box_list i.opr{background:url(http://img.yjbys.com/my/person/icon_opr.png) 0 1px no-repeat;height:19px;vertical-align:middle;margin-top:8px;margin-right:5px;width:19px;float:right}
+.box_list li.zhankai i.opr{background:url(http://img.yjbys.com/my/person/icon_opr.png) 0 -20px no-repeat;}
+.desc{float:left;display:none;width:100%;background:#F3F3F3;}
+.desc p{font-size:14px;line-height:24px;padding:10px}
+.desc.show{display:block;}
+.box_job{float:left;width:95.5%;background:#fff;border:1px solid #D3D3D3;border-top:0;padding:0 15px 15px 15px;border-radius:0 0 3px 3px}
+.box_job li{float:left;line-height:24px;padding:15px 0 15px;width:100%;border-bottom:1px solid #E0E0E0;position:relative}
+.box_job li.hover{background:#FFF;cursor:default}
+.box_job .pic{float:left;width:15%;}
+.box_job .pic img{background:none repeat scroll 0 0 #FAFAFA;border:1px solid #DFDFDF;height:43px;padding:2px;width:93px;margin-top:2px;}
+.box_job .info{float:left;width:75%;}
+.box_job .info b{display:inline;float:left;height:30px;line-height:30px;overflow:hidden;width:100%;}
+.info b a{color:#0360AF;font-size:16px;padding:0 5px;}
+.box_job .info p{display:inline;float:left;height:22px;line-height:22px;overflow:hidden;padding-left:5px;width:100%;}
+.info p span{color:#333;font-size:12px;}
+.info p .split{color:#CCCCCC;margin:0 10px;font-style:normal;font-weight:normal;font-size:12px;}
+.box_job .date{width:120px;position:absolute;text-align:right;right:0;top:10px}
+.box_job .date a{font-size:12px;display:inline-block;line-height:22px;height:22px;width:100%;text-align:right;}
+.box_job .date code{color:#999999;display:inline-block;font-size:12px;font-family:Arial;height:22px;line-height:22px;padding-top:10px;_padding-top:0px;width:100%;}
+.box_job .date a.apply_job{background:url(http://img.yjbys.com/my/person/aply.gif) no-repeat scroll right center #CC0000;color:#FFFFFF;border-radius:1px;font-size:14px;height:25px;line-height:25px;display:inline-block;text-align:left;text-indent:10px;width:100px;position:absolute;right:0px}
+.box_job li.hover .date code{display:none;}
+.box_job li.hover .date a{display:block;}
+.right_main{float:right;width:28%;}
+.simple_resume{float:left;width:88.6%;margin:5px 0;padding:10px 15px 15px 15px;_padding:8px 0px 15px 0px;background:url(http://img.yjbys.com/my/person/bg1.png) 0 0 repeat-x #FBFCFB;border:1px solid #DDD;border-radius:3px 3px 3px 3px;}
+.simple_resume .hd{border-bottom:1px solid #DDD;height:35px;line-height:35px;width:100%;float:left;_margin-left:8px;}
+.simple_resume .hd span{float:left;border-bottom:1px solid #3EAF0E;padding:0 10px;color:#444;_position:relative;_bottom:-4px}
+.simple_resume .hd a.more{float:right;color:#0360AF;font-size:12px;margin-top:4px;}
+.simple_resume .hd i.refresh{background:url(http://img.yjbys.com/my/person/icon_refresh.gif) 0 0 no-repeat;height:25px;width:25px;vertical-align:middle;margin-top:10px;margin-left:8px;display:block;}
+i.icon_resume_edit{background:url(http://img.yjbys.com/my/person/icon_edit.png) 0 0 no-repeat;height:20px;vertical-align:middle;margin-top:10px;margin-left:8px;width:20px;display:block;}
+i.icon_profile{background:url(http://img.yjbys.com/my/person/icon_edit.png) 0 0 no-repeat;height:25px;vertical-align:middle;margin-top:8px;margin-left:8px;width:25px;display:block;}
+a.edit_icon{text-decoration:none}
+a.edit_icon font{display:none}
+font.edit_txt{font-size:12px;}
+.simple_resume .simple_resume_info{width:94%;text-align:center;margin:20px 10px 5px;_margin:20px 15px 5px;float:left}
+.simple_resume_info .picture{float:left;width:85px;position:relative}
+.simple_resume_info .avatar_pic img{width:85px;border-radius:3px;}
+.upload_pic_edit{display:block;position:absolute;left:0;bottom:0;border-radius:0 0 3px 3px;width:99.5%;font-size:12px;height:23px;line-height:23px;background:#999;color:#FFF;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+.upload_pic_edit:hover{background:#333;color:#FFF;text-decoration:none}
+.simple_resume_info .info{float:right;text-align:left;width:135px}
+p.info_name{padding-bottom:10px;font-size:16px}
+p.info_txt{color:#999;font-size:12px;line-height:18px;padding-bottom:8px}
+.data_resume{background:url(http://img.yjbys.com/my/person/data_resume_bg.gif) no-repeat scroll center top;height:116px;float:left;width:250px;_margin:6px;}
+.data_resume li{color:#666666;display:inline;float:left;text-align:center;width:77px;}
+.data_resume strong,.data_resume a{display:block;font:bold 16px/82px Tahoma,Geneva,sans-serif;height:82px;margin-bottom:5px;padding-top:2px;}
+.deal-resume{text-indent:10px;}
+.deal-resume a{color:#2CA482}
+.job-num{text-indent:19px;}
+.job-num strong,.job-num a{color:#CE2B0C;}
+.interested-resume{position:relative;left:13px;}
+.interested-resume strong a{color:#327F57;}
+.data_resume p{color:#666;font-family:verdana;font-size:12px}
+.butt{float:left;width:88%;padding:10px 15px 5px;_margin-left:5px;text-align:center}
+.butt .btn{background:#FCD01E;border-radius:3px;color:#893C09;cursor:pointer;display:block;height:42px;line-height:42px;font-size:16px;font-weight:400;width:100%;font-family:"Microsoft Yahei";}
+.butt span{clear:both;color:#666;font-size:12px;line-height:25px;font-weight:100;}
+.topic a{margin-top:6px;float:left}
+.topic img{width:228px;border:1px solid #DDD;border-radius:3px 3px 3px 3px;}
+.sidebar{float:left;width:99.4%;margin-top:10px;border-radius:3px 3px 3px 3px;}
+.sidebar1{background-color:#F3F8FE;border:1px solid #D0DAF3;}
+.sidebar2{background-color:#FFF9ED;border:1px solid #FFDD9D;}
+.sidebar3{background-color:#FAFEED;border:1px solid #D1E3AF;}
+.sidebar_img{float:left;height:108px;width:40%;}
+.sidebar_ul{float:left;padding-top:8px;width:57%;margin-left:5px}
+.sidebar_ul li{height:24px;line-height:24px;color:#999;width:100%;overflow:hidden;}
+.sidebar1 li a{color:#315AAA;border-bottom:1px dotted #DDD;font-size:12px;}
+.sidebar2 li a{color:#FF6702;border-bottom:1px dotted #DDD;font-size:12px;}
+.sidebar3 .sidebar_ul li{float:left;width:auto !important;padding-right:8px}
+.sidebar3 li a{color:#346700;border-bottom:1px dotted #DDD;font-size:12px;}
+.intent{float:left;margin-top:20px;color:#222;font-size:12px;text-indent:10px}
+.paging{float:right;margin-top:10px;margin-bottom:15px;}
+.paging a{border:1px solid #CCCCCC;border-radius:3px;float:left;font-family:arial;font-size:14px;font-weight:100 !important;height:20px;line-height:20px;margin-left:5px;overflow:hidden;padding:3px 10px;color:#666 !important}
+.paging a.current{background:none repeat scroll 0 0 #459935;color:#FFF !important;border:1px solid #459935;}
+div.job_intent{color:#222;font-size:12px;line-height:24px;padding:15px 8px 6px;width:98%;border-bottom:1px solid #E0E0E0;;float:left;}
+div.job_intent a{color:#0360AF;font-weight:600}
+div.job_intent:hover{background:#fff;}
+.sidetop{position:fixed;margin-top:350px;left:50%;margin-left:520px;z-index:400;_position:absolute;_top:expression(documentElement.scrollTop + "px");width:54px;}
+.sidetop ul li{float:left;width:60px;height:60px;text-align:center;margin-bottom:4px;}
+.sidetop ul li a{width:60px;height:60px;display:block;}
+.sidetop ul li a:hover{filter:alpha(opacity=80);-moz-opacity:0.80;opacity:0.80;}
+.contact a{background:url(http://img.yjbys.com/my/person/sidetop_contact.gif) no-repeat}
+.backtop a{background:url(http://img.yjbys.com/my/person/sidetop_backtop.gif) no-repeat}
+.sec-sec-nav{margin-bottom:15px;overflow:hidden;border:1px solid #D9D9D9;border-radius:3px;padding:12px 0 10px 25px;background:url(http://img.yjbys.com/my/person/sec-nav-bg.png) right 0 no-repeat #FAFAFA;}
+.sec-qiuzhi{background-position:right -90px}
+.sec-yonghu{background-position:right -180px}
+.sec-sec-nav a{color:#4D4D4D;display:inline-block;padding:0 3px 2px;text-align:center;font-weight:100;border-bottom:3px solid #FAFAFA;}
+.sec-sec-nav a:hover{text-decoration:none;border-bottom:3px solid #E1581D;color:#0360AF;}
+.sec-sec-nav a.current{color:#1B6CBF;border-bottom:3px solid #E1581D;color:#5C5C5C;}
+.sec-sec-nav span{color:#DDD;font-family:arial;padding:0 22px;}
+.resume_info{float:left;width:75%;}
+.resume_fix{position:relative;width:23%;float:right}
+.fixed-side{background-color:#FFFFFF;border:1px solid #D9D9D9;width:228px;float:left}
+.resume-display .sections-list{}
+.resume-name{background:none repeat scroll 0 0 #F0F0F0;border-bottom:1px solid #DDDDDD;border-top:3px solid #459935;color:#333333;font-size:14px;height:85px;float:left;width:100%;position:relative;}
+.resume-name h2{font-size:14px;font-weight:bold;margin:10px 0 0 20px;}
+.resume-name .icon-refresh{background:url(http://img.yjbys.com/my/person/icon_shuaxin.png) no-repeat;width:15px;height:15px;position:absolute;right:10px;top:10px;}
+.resume-name .icon-refreshed{background:url(http://img.yjbys.com/my/person/icon_shuaxin.png) no-repeat scroll 0 0;color:#999999;font-size:12px;height:15px;padding-left:18px;position:absolute;right:10px;top:10px;}
+.resume-name .resume-row{margin-left:15px;overflow:hidden;}
+.resume-progress-bar{background:url(http://img.yjbys.com/my/person/resume-progress-tube.png) repeat scroll 0 0;height:16px;width:200px;}
+.resume-progress-bar .bar-in{background:url(http://img.yjbys.com/my/person/progress-green.png) repeat scroll left 0;float:left;height:16px;}
+.resume-progress-bar .bar-in em{color:#FFFFFF;float:right;line-height:16px;font-size:12px;margin-right:5px;}
+.resume-row{margin:12px 0 0;overflow:hidden;}
+.resume-row h4,.resume-row div{float:left;}
+.resume-row h4{color:#333333;}
+.resume-row .resume-progress-bar{margin:3px 8px 0 0;}
+.resume-row .count{background:url(./img/common-icon-01.png) no-repeat scroll -160px -168px;height:20px;line-height:20px;padding-left:5px;text-align:center;width:35px;}
+.sections-list{background-color:#F9F9F9;width:100%;float:left}
+.sections-list li{width:100%;float:left}
+.sections-list li a{display:block;border-bottom:1px solid #DDDDDD;border-top:1px solid #FFFFFF;color:#333333;font-size:12px;height:20px;line-height:20px;padding:10px 20px 10px 30px;_padding:13px 20px 5px 30px;margin:0;cursor:pointer}
+.sections-list li a:hover{background:#F0F0F0;text-decoration:none;}
+.sections-list li.hoved a{background:#DDEEF7;text-decoration:none;color:#000}
+.sections-list li a.first{}
+.sections-list li a.cur{background-color:#E8E8E8;border-top-color:#E1E1E1;color:#2C6AB4;font-weight:bold;}
+.blue-ok-icon{background:url(http://img.yjbys.com/my/person/common-icon-01.png) no-repeat scroll -168px -224px;height:8px;width:10px;float:right;margin:8px 0 0;display:none;}
+.sections-list li .rsm-module-ico{float:left;margin:4px 12px 0 0;}
+.sections-list li a span{float:left;width:72px;}
+.sections-list li a span.nospan{width:150px}
+.sections-list li .weight{color:#0360AF;float:left;}
+.sections-list li.completed .rsm-module-ico{display:block;}
+.rsm-module-ico{background-image:url(http://img.yjbys.com/my/person/common-icon-01.png);background-repeat:no-repeat;height:16px;width:16px;}
+.basic-ico{background-position:-208px 0;}
+.evaluation-ico{background-position:-208px -40px;}
+.education-ico{background-position:-208px -80px;}
+.internship-ico{background-position:-208px -120px;}
+.language-ico{background-position:-208px -160px;}
+.itskill-ico{background-position:-208px -200px;}
+.reward-ico{background-position:-208px -240px;}
+.campusjob-ico{background-position:-208px -280px;}
+.project-ico{background-position:-208px -320px;}
+.certificate-ico{background-position:-208px -360px;}
+.attachment-ico{background-position:-208px -400px;}
+.dashboard{background-color:#FFF;padding:10px 0;text-align:center;float:left;width:100%}
+.preview-resume{background:url(http://img.yjbys.com/my/person/preview_bg.gif) no-repeat 0 -152px;width:100px;height:40px;float:left;margin:0 17px 0 17px;}
+.download-resume{background:url(http://img.yjbys.com/my/person/preview_bg.gif) no-repeat 0 -202px;width:80px;height:40px;float:left;}
+.preview-resume:hover,.download-resume:hover{filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;}
+.resume-base{float:left;width:96%;box-shadow:1px 3px 3px rgba(150,152,153,0.3);padding:30px 0 50px 30px;border:1px solid #CCC;border-bottom:1px solid #B4B4B4;background:#FFF;margin-bottom:20px;position:relative}
+.resume-base .im-pic{float:left;width:120px;position:relative;text-align:center;margin-right:22px;}
+.im-pic img{width:120px;border-radius:3px}
+.im-info{float:left;width:78%}
+.im-info p.im-name{float:left;width:100%;}
+p.im-name b{font-size:24px;font-weight:100}
+p.im-name font{font-size:12px;font-weight:100;padding-left:10px;color:#999}
+.im-info p.im-txt{float:left;width:100%;line-height:30px;padding-top:5px;_padding-bottom:5px;overflow:hidden;color:#333333;font-size:14px;}
+.im-info p.im-ctc{float:left;width:100%;line-height:27px;height:27px;color:#000;font-size:14px;letter-spacing:1px;font-family:Tahoma}
+p.im-txt span{color:#333333;}
+p.im-txt .line{color:#999;display:inline;margin:0 8px;font-size:12px;}
+p.im-txt em{color:#666;}
+p.im-txt a{color:#0360AF}
+.im-info td.tdl{background-color:#F5F5F5;text-align:right;}
+.im-info td{font-size:14px;padding:3px 8px;}
+.im-info i{display:inline-block;font-style:normal;margin-right:0.5em;vertical-align:middle;height:18px;width:18px;}
+.im-email{background:url(http://img.yjbys.com/my/person/im_icon.png) no-repeat scroll 0 2px;}
+.im-phone{background:url(http://img.yjbys.com/my/person/im_icon.png) no-repeat scroll 0 -33px;}
+.im-qq{background:url(http://img.yjbys.com/my/person/im_icon.png) no-repeat scroll 0 -66px;}
+.im-edit{float:left;width:100%;_padding-right:30px;margin-top:10px;position:absolute;height:38px;left:0px;bottom:0;line-height:38px;background:url(http://img.yjbys.com/my/person/hd_bg.png) 0 0 repeat-x;border-top:1px solid #CCCCCC;}
+.im-edit a{color:#0360AF;padding-right:20px;_padding-right:0px;}
+i.edit{background:url(http://img.yjbys.com/my/person/icon_edit.gif) no-repeat scroll 0 -36px;height:25px;margin-left:8px;margin-top:10px;display:inline-block;vertical-align:middle;width:20px;}
+a:hover i.edit{background-position:0 0;}
+i.add{background:url(http://img.yjbys.com/my/person/icon_add.gif) no-repeat scroll 0 -37px;height:25px;margin-left:8px;margin-top:10px;display:inline-block;vertical-align:middle;width:20px;}
+a:hover i.add{background-position:0 0;}
+i.del{background:url(http://img.yjbys.com/my/person/icon_del.gif) no-repeat scroll 0 0;height:23px;margin-left:8px;margin-top:7px;display:inline-block;vertical-align:middle;width:17px;}
+a:hover i.del{background-position:0 -24px;}
+i.save{background:url(http://img.yjbys.com/my/person/icon_save.gif) no-repeat scroll 0 0;height:23px;margin-left:8px;margin-top:7px;display:inline-block;vertical-align:middle;width:17px;}
+a:hover i.save{background-position:0 -25px;}
+i.download{background:url(http://img.yjbys.com/my/person/icon_download.gif) no-repeat scroll 0 -47px;height:23px;margin-left:8px;margin-top:7px;display:inline-block;vertical-align:middle;width:20px;}
+a:hover i.download{background-position:0 0;}
+i.send{background:url(http://img.yjbys.com/my/person/icon_send.gif) no-repeat scroll 0 -1px;height:25px;margin-left:8px;margin-top:10px;display:inline-block;vertical-align:middle;width:20px;}
+a:hover i.send{background-position:0 -47px;}
+i.eyes{background:url(http://img.yjbys.com/my/person/icon_eyes.gif) no-repeat scroll 0 0;height:25px;margin-left:8px;margin-top:10px;display:inline-block;vertical-align:middle;width:20px;}
+.orange{color:#666}
+.orange:hover{color:#E46B0F!important;}
+.my-sp-other li{float:left;margin:5px 0;padding-right:15px;white-space:nowrap;font-size:12px;}
+.my-label{background:url(http://img.yjbys.com/my/person/special_bg.gif) no-repeat scroll right 0;color:#666666;display:inline-block;height:28px;line-height:28px;position:relative;vertical-align:middle;margin-top:8px;}
+.my-label em{background:url(http://img.yjbys.com/my/person/special_bg.gif) no-repeat scroll 0 -42px;display:block;height:28px;left:0;position:absolute;top:0;width:5px;}
+.my-label b{cursor:default;display:inline-block;font-weight:normal;height:28px;line-height:26px;margin:0 20px 0 12px;}
+.resume-section{float:left;width:100%;box-shadow:1px 3px 3px rgba(150,152,153,0.3);border:1px solid #CCC;border-bottom:1px solid #B4B4B4;background:#FFF;margin-bottom:20px;position:relative}
+.resume-section a{color:#0360AF}
+.resume-section a:hover,a.gray{color:#666}
+.resume-section .section-hd{overflow:hidden;float:left;width:100%}
+.resume-section .section-hd .title{background:url(http://img.yjbys.com/my/person/bevel.gif) right top no-repeat;height:34px;left:-1px;line-height:34px;padding-right:4px;position:absolute;text-align:center;top:-4px;float:left}
+.section-hd .title b{background:none repeat scroll 0 0 #555B65;color:#FFFFFF;font-family:"Microsoft YaHei";font-size:16px;font-weight:100;padding:0 30px;float:left}
+.section-hd .title code{float:left;font-size:12px;margin-left:10px;padding-top:5px}
+.section-hd .fr{padding-right:12px;padding-top:2px;}
+.section-hd .btn_edit{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat 0 0;width:51px;height:25px;display:inline-block;text-indent:-9999px;margin-top:10px}
+.section-hd .btn_add{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat 0 -65px;width:51px;height:25px;display:inline-block;text-indent:-9999px;margin-top:10px}
+.section-hd .btn_modify{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat right 0;width:51px;height:25px;display:inline-block;text-indent:-9999px;margin-top:10px;margin-right:10px}
+a.edit{background:url(http://img.yjbys.com/my/person/icon_edit.gif) no-repeat 0 2px;display:inline-block;width:15px;height:15px;margin-left:5px}
+a.edit:hover{background-position:0 -34px;}
+a.edit0{background:url(http://img.yjbys.com/my/person/icon_edit_0.gif) no-repeat 0 2px;display:inline-block;width:10px;height:10px;margin-left:5px}
+a.edit0:hover{background-position:0 -40px;}
+.section-box{float:left;width:94%;padding:5px 0 15px 20px;}
+.section-box td{line-height:20px;padding:5px;}
+.section-box td.value{width:70px;vertical-align:top;color:#666}
+.section-box a.none-add{background:none repeat scroll 0 0 #F8F8F8;border:1px dashed #E3E3E3;color:#666666;float:left;font-size:12px;line-height:26px;padding:15px 0;margin:10px 0;text-align:center;width:100%;}
+.section-box a.none-add:hover{background:none repeat scroll 0 0 #EBF4F9;color:#6A6D6E;text-decoration:none;}
+p.detail{line-height:30px;display:inline-block;width:98%}
+p.detail span{padding:0 10px;}
+p.detail span.line{color:#999;font-size:12px}
+p.des{line-height:23px;font-size:12px;color:#999;padding:0 10px;display:inline-block;width:98%}
+p.des span{color:#555;}
+p.mag{line-height:23px;border-bottom:1px solid #E6E6E6;font-size:12px;color:#999;padding:0 10px;display:inline-block;width:98%;margin-bottom:10px;}
+.sumecont .img-show{width:865px;margin-left:40px;_margin-left:20px;float:left;}
+.img-show li,.add-new-pic{width:88px;margin-bottom:10px;padding-top:5px;float:left;text-align:center;position:relative}
+.img-show li img{width:70px!important;height:83px!important;}
+.img-show li span,.add-new-pic span{font-size:12px;color:#444;width:100%;display:inline-block;}
+.profile .img-show li{width:109px;margin-top:10px;_margin-top:0;margin-bottom:50px;}
+.profile .img-show li img{width:90px;height:105px}
+.fencai{border:1px solid #DCDCDC;background:#FAFAFA;border-top:0;box-shadow:1px 3px 3px rgba(150,152,153,0.3);margin-top:0!important;margin-bottom:50px;}
+.img-guanli{float:left;width:100%;margin-bottom:20px;}
+.img-guanli li{float:left;width:100%;padding:15px 0 10px;border-bottom:1px dashed #CCCCCC;color:#777777;position:relative}
+.img-left{width:10%;float:left;margin-left:10px}
+.img-left img{width:70px;height:83px}
+.img-right{float:left;width:70%;}
+.img-right p{width:100%;float:left;margin-bottom:4px;}
+.img-right span{vertical-align:middle}
+.img-right span.ml{margin-left:10px;}
+.img-right span.vt{vertical-align:top}
+.img-right .img-input{background:none repeat scroll 0 0 #F9F9F9;border-color:#C6C6C6 #EEEEEE #EEEEEE #C6C6C6;border-style:solid;border-width:1px;height:20px;line-height:20px;padding:2px 5px;width:348px;}
+.input-warn{border:1px solid #F00 !important}
+.img-right .img-textarea{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:none repeat scroll 0 0 #F9F9F9;border-color:#C6C6C6 #EEEEEE #EEEEEE #C6C6C6;border-image:none;border-style:solid;border-width:1px;height:40px;line-height:18px;padding:2px 5px;width:500px;font-size:12px;D}
+.img-right select.short{display:inline-block;font-family:Tahoma;font-size:14px;height:24px;margin-bottom:5px;padding:2px;vertical-align:middle;width:100px;}
+.img-edit{float:right;width:15%;padding-top:30px;}
+a.img-close{background:url(http://img.yjbys.com/my/person/icon_close_blue.png) 0 0 no-repeat;display:block;height:14px;overflow:hidden;position:absolute;right:3px;text-indent:-9999px;top:3px;width:14px;}
+a.img-close:hover{background-position:0 -18px;}
+.attchment-list li{border-bottom:1px solid #E6E6E6;color:#333333;overflow:hidden;padding-top:9px;line-height:35px;}
+.attchment-list li .doc-ico{float:left;background:url(http://img.yjbys.com/my/person/doc_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.attchment-list li .img-ico{float:left;background:url(http://img.yjbys.com/my/person/img_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.attchment-list li .file-ico{float:left;background:url(http://img.yjbys.com/my/person/file_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.attchment-list li span font{float:left;padding-left:6px}
+.profile{float:left;width:87.8%;box-shadow:1px 3px 3px rgba(150,152,153,0.3);padding:30px 60px;border:1px solid #CCC;border-bottom:1px solid #B4B4B4;background:#FFF;margin-bottom:20px;}
+.profile .editcard{border-bottom:1px solid #CCCCCC;line-height:19px;padding-bottom:7px;float:left;width:100%}
+.profile .editcard span{display:block;float:right;height:14px;line-height:14px;padding-top:12px;}
+.profile .editcard em{background:none repeat scroll 0 0 #E76322;display:inline-block;height:19px;margin-right:10px;margin-top:3px;margin-top:1px\0;overflow:hidden;vertical-align:bottom;width:5px;float:left;}
+.profile .editcard i{display:inline-block;font-family:'Microsoft YaHei','hei','tahoma';font-size:18px;font-style:normal;line-height:22px;vertical-align:middle;float:left}
+.profile .editcard i.icon_email{background:url(http://img.yjbys.com/my/person/icon_email.gif) no-repeat left center;line-height:30px;padding-left:32px;}
+.profile .editcard i.icon_phone{background:url(http://img.yjbys.com/my/person/icon_phone.gif) no-repeat left center;line-height:30px;padding-left:32px;}
+.profile .editcard i.icon_id{background:url(http://img.yjbys.com/my/person/icon_id.gif) no-repeat left center;line-height:30px;padding-left:32px;}
+.profile .editcard code{font-size:12px;color:#777;padding-left:10px;position:relative;top:5px}
+.profile-avatar{border:1px solid #CCCCCC;height:150px;overflow:hidden;position:absolute;right:200px;top:140px;width:130px;}
+.profile-avatar .imgout img{height:150px;overflow:hidden;width:130px;}
+.profile-avatar .upload_pic_edit{background:none repeat scroll 0 0 #999999;border-radius:0;bottom:0;color:#FFFFFF;display:block;text-align:center;font-size:14px;height:26px;left:0;line-height:26px;opacity:0.8;position:absolute;width:100%;}
+.profile-form{margin:20px 0;float:left}
+.profile form{float:left;width:100%}
+.profile-form td{font-size:14px;line-height:30px;height:30px;padding:0 0 18px;vertical-align:top;}
+.profile-form td.label span{padding-right:5px;vertical-align:middle;}
+.profile-form td.label{text-align:right}
+.profile-form td.vmid{vertical-align:middle;font-size:18px;width:30%}
+.profile-form td.input{padding-left:20px;}
+.profile-form input.text{background:none repeat scroll 0 0 #F9F9F9;border-style:solid;border-width:1px;border-color:#C6C6C6 #EEEEEE #EEEEEE #C6C6C6;float:left;font-size:14px;line-height:18px;padding:5px;width:245px;}
+.profile-form input.big{line-height:18px;padding:10px;}
+.profile-form input.short{width:160px;padding:8px;}
+.profile-form input.checkbox{display:inline-block;height:30px;vertical-align:middle;outline:none}
+.profile-form select.short{width:120px;display:inline-block;font-size:14px;height:30px;padding:5px;margin-right:5px;vertical-align:middle;font-size:14px;font-family:Tahoma;}
+.profile-form td textarea{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:none repeat scroll 0 0 #F9F9F9;border-color:#C6C6C6 #EEEEEE #EEEEEE #C6C6C6;border-image:none;border-style:solid;border-width:1px;font-size:12px;height:58px;max-width:346px;padding:5px;width:346px;}
+a.shortcut{background:url(http://img.yjbys.com/my/person/icon_menu.gif) no-repeat;width:11px;height:10px;float:left;position:relative;left:-18px;top:9px;}
+span.mark{font-size:12px;margin-left:10px;color:#777}
+.profile-sp{padding:5px 20px 10px;float:left}
+.profile-sp span{margin-right:10px;}
+.profile-sp .my-label b{margin-right:10px}
+.profile-sp a{display:inline-block;background:url(http://img.yjbys.com/my/person/icon_delsp.gif) no-repeat 0 0;width:10px;height:10px;padding-right:10px;position:relative;top:0;top:-7px\9;top:-7px\0;*top:-7px;_top:5px;cursor:pointer}
+.profile-sp a:hover{background-position:0 -41px;}
+.add_inten,.add-label{float:left;width:90%;padding:0 20px 10px;margin-top:10px;}
+.add_inten input.text{background:none repeat scroll 0 0 #F9F9F9;border-style:solid;border-width:1px;border-color:#C6C6C6 #EEEEEE #EEEEEE #C6C6C6;display:inline-block;font-size:14px;line-height:18px;padding:5px;width:205px;}
+.add_inten input.button{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -392px no-repeat;font-size:14px;height:28px;line-height:28px;width:70px;margin-left:10px;color:#FFF;display:inline-block;cursor:pointer}
+.default-label-title{color:#999999;height:28px;line-height:28px;font-size:12px;}
+.default-label-wrap{border:1px solid #E6E6E6;border-radius:3px;padding:10px 30px;position:relative;width:97%;height:103px;overflow:hidden;font-size:12px}
+.special-label-default{background:url(http://img.yjbys.com/my/person/special_default.png) no-repeat scroll right top;color:#666666;display:inline-block;height:28px;line-height:26px;margin:0 8px 10px 0;position:relative;vertical-align:middle;cursor:pointer;}
+.special-label-default em{background:url(http://img.yjbys.com/my/person/special_default.png) no-repeat scroll -92px -29px;display:block;height:28px;left:0;position:absolute;top:0;width:18px;}
+.special-label-default:hover em{background-position:0 -29px;}
+.special-label-default span{display:inline-block;height:28px;line-height:26px;margin:0 16px 0 24px;}
+input.resume-file{border:1px solid #DDDDDD;height:30px;line-height:30px;width:300px;padding-left:10px;background-color:#FFFFFF;}
+span.help-text{color:#999999;margin-top:8px;display:block;font-size:12px;line-height:22px !important;}
+.upload .button{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -448px no-repeat;font-size:14px;height:32px;line-height:32px;width:80px;margin-left:20px;color:#FFF;display:inline-block;cursor:pointer;}
+.upload a{margin-left:10px}
+.warning{background:url(http://img.yjbys.com/my/person/icon_warning.gif) no-repeat left center;text-indent:20px;height:30px;display:inline-block;margin-left:10px;line-height:30px;}
+.warning a{color:#0360AF;padding-left:5px}
+.download-myresume{display:inline-block;background:url(http://img.yjbys.com/my/person/preview_bg.gif) no-repeat 0 -80px;width:120px;height:45px;line-height:45px;margin-top:35px;text-align:center;font-size:16px;cursor:pointer}
+.resume-preview{background-color:#FFFFFF;border:1px solid #E1E1E1;margin:10px 0;width:100%;float:left}
+.resume-preview .headinfo{background-color:#FAFAFA;border-bottom:1px dashed #CCCCCC;float:left;padding:15px 30px 15px;width:94%;}
+.headinfo .headp1 span{color:#333333;font-size:24px;line-height:200%;}
+.headinfo .headp1 font{margin-left:10px;font-size:12px;color:#999}
+.headinfo .headp2 code{padding:0 12px;font-size:10px;color:#CCC}
+.headinfo .headp2 a{background-color:#CC0000;border-radius:3px;color:#FFFFFF;margin-left:20px;padding:6px 10px;}
+.fr a.aply{background:none repeat scroll 0 0 #CC0000;border-radius:3px;color:#FFFFFF;float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:24px;font-weight:normal;height:80px;line-height:80px;text-align:center;width:180px;}
+.sumeMain{padding:30px;float:left;width:95%}
+.sumetit{background:url("../img/jian.gif") no-repeat scroll 20px 0;text-indent:50px;width:100%;float:left;margin-top:20px;}
+.sumecont{margin:15px 0;float:left;width:100%}
+.sumetit span{font-family:"Œ¢»Ì—≈∫⁄";font-size:18px;font-weight:600;}
+.sumecont table{margin:0 auto;width:90%;}
+.sumecont table td{font-family:"Œ¢»Ì—≈∫⁄";font-size:14px;padding:0 10px;}
+table td.tdl{background-color:#F5F5F5;text-align:right;}
+.sumepic img{border:1px solid #CCCCCC;height:140px;padding:2px;width:110px;}
+.sumecont .attchment .doc-ico{float:left;background:url(http://img.yjbys.com/my/person/doc_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.sumecont .attchment .img-ico{float:left;background:url(http://img.yjbys.com/my/person/img_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.sumecont .attchment .file-ico{float:left;background:url(http://img.yjbys.com/my/person/file_ico.gif) no-repeat 0 0;width:30px;height:30px;}
+.sumecont .attchment a{float:left;padding-left:6px;line-height:30px;}
+.rprint{float:left;height:50px;line-height:50px;width:100%;}
+.rprint .shoucang{background:none repeat scroll 0 0 #FF6600;border-radius:3px;color:#FFFFFF;float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:52px;text-align:center;width:80px;}
+.rprint .dayin{background:none repeat scroll 0 0 #339933;border-radius:3px;color:#FFFFFF;float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:30px;text-align:center;width:80px;}
+.shoucang:hover,.dayin:hover{opacity:0.8;}
+.letter-nodata{background:url(http://img.yjbys.com/my/person/letter-banner.png) no-repeat scroll 0 40px;height:400px;width:100%;float:left;text-align:center;}
+.letter-nodata .button{background:url(http://img.yjbys.com/my/person/add-1st-letter.png) no-repeat scroll 0 0;display:inline-block;height:42px;width:152px;margin-top:270px;cursor:pointer;text-indent:-9999px}
+.resume-list-table th{background:url(http://img.yjbys.com/my/person/hd_bg.png) 0 0 repeat-x;line-height:25px;height:25px;padding:8px 5px 5px;font-weight:100;border-bottom:1px solid #CCCCCC;}
+.thover{background-color:#FAFAFA}
+.resume-list-table td{line-height:42px;padding:8px 5px 5px;color:#777;border-bottom:1px dashed #CCCCCC}
+a.letter{background:url(http://img.yjbys.com/my/person/icon_letter.gif) no-repeat left center;padding-left:50px;height:32px;display:inline-block;color:#18678F;font-size:14px;}
+.add_letter{float:left;width:100%;margin:20px 0;}
+.add_letter a{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat 0 -165px;display:inline-block;width:125px;height:35px}
+.letter-article .letter-title{font-size:22px;display:inline-block;width:100%;background:url(http://img.yjbys.com/my/person/letter-h1.gif) repeat-x left bottom;height:50px;line-height:50px;padding-bottom:6px;position:relative}
+.letter-article .letter-title a{background:url(http://img.yjbys.com/my/person/btn_blue.gif) repeat-x;border-radius:3px;border:1px solid #18678F;font-size:14px;height:35px;line-height:35px;width:100px;margin-left:20px;position:absolute;top:6px;right:10px;color:#FFF !important;text-align:center;display:inline-block;cursor:pointer;}
+.letter-article .letter-content{line-height:32px;font-family:'ø¨ÃÂ';font-size:18px;padding:20px;}
+.bottom_pager{float:right;margin:5px 0;}
+.prev-disabled{background:none repeat scroll 0 0 #FFFFFF;border-radius:3px;color:#CCCCCC;cursor:default;padding:4px 10px 5px;}
+.bottom_pager .current,.bottom_pager .text{border:1px solid #FFFFFF;}
+.bottom_pager .current{background:none repeat scroll 0 0 #208EC3;border:1px solid #208EC3;color:#FFFFFF;}
+.bottom_pager a,.bottom_pager span{border:1px solid #CCCCCC;color:#666;border-radius:3px;float:left;font-family:arial;font-size:14px;font-weight:100 !important;height:20px;line-height:20px;margin-left:2px;overflow:hidden;padding:3px 10px;}
+.bottom_pager a:hover{background:none repeat scroll 0 0 #208EC3;border:1px solid #208EC3;color:#FFFFFF;text-decoration:none;}
+.bottom_pager .page-skip{border:0 none;font-size:12px;height:28px;padding:0 10px;}
+.bottom_pager .prev-disabled{background:#F5F5F5;color:#CCC}
+.page-skip em{float:left;font-style:normal;height:26px;line-height:26px;}
+.set-up{float:left;width:90%;padding:20px;}
+.set-up p{float:left;width:100%;line-height:35px;margin-bottom:10px;}
+.set-up p .checkbox{position:relative;top:3px;padding-right:10px;}
+.set-up a.button{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -448px no-repeat;color:#FFFFFF !important;cursor:pointer;display:inline-block;font-size:14px;height:32px;line-height:32px;margin-left:20px;right:10px;text-align:center;width:80px;margin-top:15px;}
+.upicbg{background:url(http://img.yjbys.com/my/person/pictrue_bg.gif) no-repeat center right #E8F3F7;border:2px dashed #B7CAD8;padding:10px 0 25px;}
+.cut-pic{float:left;width:100%;margin:20px 0;text-align:center}
+.Sencod-Menu{float:left;width:100%;padding-bottom:15px;}
+.Sencod-Menu a{float:left;height:48px;line-height:45px;background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -596px no-repeat;color:#666;width:126px;text-align:center;margin-right:20px;}
+.Sencod-Menu a.hover{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -520px no-repeat;color:#fff;}
+.qiuzhi{padding:0;width:99.8%}
+.qiuzhi .checkbox{position:relative;top:3px;}
+input.but_blue{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -448px no-repeat;color:#FFFFFF !important;cursor:pointer;display:inline-block;font-size:14px;height:32px;line-height:32px;text-align:center;width:80px;}
+input.but_gary{background:url(http://img.yjbys.com/my/person/icon_btn.gif) right -448px no-repeat;color:#555 !important;cursor:pointer;display:inline-block;font-size:12px;height:32px;line-height:32px;margin-left:10px;text-align:center;width:80px;}
+.input .but_gary{margin-left:-2px;color:#222;margin-top:6px}
+input.but_again{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat scroll 0 -512px;color:#555555 !important;cursor:pointer;display:inline-block;font-size:12px;height:32px;line-height:32px;margin-left:-2px;text-align:center;width:137px;}
+input.but_txt{position:relative;top:0px;left:10px;color:#333;display:inline-block;background:none;border:0;color:#0360AF;cursor:pointer;}
+input.but_yellow{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -317px no-repeat;border:0;font-size:14px;font-weight:600;height:34px;line-height:34px;width:88px;margin-left:20px;color:#333333;display:inline-block;cursor:pointer;}
+input.but_green{background:url(http://img.yjbys.com/my/person/icon_btn.gif) 0 -242px no-repeat;border:0;font-size:14px;height:42px;line-height:42px;width:110px;margin-left:20px;color:#FFF;display:inline-block;cursor:pointer;}
+.push{padding-left:10px;float:left;margin:5px 0}
+.renzheng .editcard{margin-top:20px;}
+.Yphone{background:url(http://img.yjbys.com/my/person/phone_bg.gif) no-repeat center right #F4FBEE;border:1px solid #DDD;border-top:0;box-shadow:1px 3px 3px rgba(150,152,153,0.3);margin-top:0;margin-bottom:50px}
+.Yemail{background:url(http://img.yjbys.com/my/person/email_bg.gif) no-repeat center right #F0F7FA;border:1px solid #B7CAD8;border-top:0;box-shadow:1px 3px 3px rgba(150,152,153,0.3);margin-top:0;margin-bottom:50px}
+.Ysfz{background:url(http://img.yjbys.com/my/person/sfz_bg.gif) no-repeat center right #F0F7FA;border:1px solid #B7CAD8;border-top:0;box-shadow:1px 3px 3px rgba(150,152,153,0.3);margin-top:0;margin-bottom:50px}
+.kongbox span.mark{margin-left:0px;display:inline-block;border-top:1px solid #dfdfdf;padding-top:10px;}
+.kongbox a.blue{font-size:12px;margin-left:20px;position:relative;top:-1px}
+.input span.mark{padding-top:2px;padding-left:2px; margin-left:10px;border:0 none;}
+.orge{padding:5px 10px;height:24px;line-height:24px;display:inline-block}
+.num{font-size:20px;font-family:Tahoma;}
+span.nodata{font-size:20px;padding:100px 50px 80px;display:block}
+span.nodata a,span.another a{color:#0360AF;}
+p.nodata{font-size:20px;padding:100px 50px 80px;display:block}
+p.nodata a,p.another a{color:#0360AF;}
+p.tick{float:left;height:55px;line-height:55px;padding-left:75px;font-size:24px;font-weight:600;margin:100px 50px 120px;}
+.rightnow{font-size:12px;top:0px!important;margin-left:3px!important;padding-right:5px}
+.rightnow img{border:1px solid #ddd;margin:0 5px;padding:0 2px;display:inline-block;position:relative;top:6px}
+.Yphone p.tick{background:url(http://img.yjbys.com/my/person/icon_tick.gif) no-repeat 0 5px;}
+.Yemail p.tick{background:url(http://img.yjbys.com/my/person/icon_tick.gif) no-repeat 0 -110px;}
+.Ysfz p.tick{background:url(http://img.yjbys.com/my/person/icon_tick.gif) no-repeat 0 -223px;}
+span.another{font-size:12px;color:#666;font-weight:100;margin-bottom:20px;display:inline-block;position:relative;top:-18px;float:left;}
+.claims{float:left;width:100%;height:310px}
+.claims li{padding:0 12px 0 20px;float:left;height:190px;margin:30px 0 140px;width:260px;}
+.claims li i{background:url(http://img.yjbys.com/my/person/icon_sp.gif) no-repeat scroll center 0;display:block;height:70px;width:240px;}
+.claims .info{line-height:2em;margin:17px auto 24px;padding:0 30px 0 24px;font-size:12px;color:#666}
+.claims .info span{color:#EB6100;}
+.claims .info a.link{margin-left:23px;color:#06C;font-family:'ÀŒÃÂ'}
+.claims .btn-wrapper{float:left;text-align:center;width:100%;}
+.claims .btn-green{background:repeat scroll 0 0 #53C126;border:1px solid #4FAB1D;border-radius:3px;box-shadow:0 1px 0 0 rgba(255,255,255,0.2) inset,0 2px 1px 0 rgba(224,224,224,0.5);color:#FFFFFF;cursor:pointer;display:inline-block;font-size:18px;line-height:1em;min-width:90px;padding:9px 30px 8px;text-align:center;}
+.claims .btn-gray{background:repeat scroll 0 0 #EEE;border:1px solid #CCC;color:#999}
+.claims .email-rz{border-left:1px solid #EEEEEE;border-right:1px solid #EEEEEE;}
+.claims .email-rz i{background-position:center -107px}
+.claims .sfz-rz i{background-position:center -212px}
+.claims span.tick{background:url(http://img.yjbys.com/my/person/icon-tick.gif) no-repeat 0 2px;display:block;height:42px;line-height:42px;font-size:20px;font-weight:600;margin-left:25px}
+.email-rz span.tick{background-position:0 -80px;}
+.sfz-rz span.tick{background-position:0 -160px;}
+.kongbox{padding-top:40px;padding-bottom:90px;}
+.all-table{float:left}
+.all-table th{background:none repeat scroll 0 0 #F4F4F4;border:1px solid #DEDEDE;color:#34495E;font-size:18px;}
+.all-table td{border:1px solid #DEDEDE;text-align:center;background:none repeat scroll 0 0 #FFF;}
+.all-table strong{background:url(http://img.yjbys.com/my/person/icon_status.gif) 0 bottom no-repeat;height:21px;line-height:21px;padding-left:26px;display:inline-block;float:left;margin-left:60px}
+strong.right{color:#009900;display:inline-block;float:left}
+strong.wrong{background-position:0 2px;color:#999;}
+strong.other{background:none;color:#444;}
+.all-table p{line-height:25px;display:inline-block;padding:5px 10px;text-align:left;}
+.all-table p span.line{padding:0 15px;color:#999}
+.noborder{border:0 !important}
+.ok-status td{background:#FAFFFB}
+.btn-orange{background:none repeat scroll 0 0 #F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;display:inline-block;width:267px;height:45px;font:18px/45px "Œ¢»Ì—≈∫⁄";color:#FFF;margin:10px 0;cursor:pointer;}
+.msg-table td{line-height:30px;padding:10px;}
+.msg-table a.blue,.msg-list a.blue{font-size:16px}
+.msg-table img{width:55px;height:60px}
+.msg-table span.time{ line-height:20px; font-size:12px; font-family:Tahoma; color:#777}
+.from-msg{height:22px;line-height:22px;display:inline-block;}
+.reply-msg{height:22px;line-height:22px;background:url(http://img.yjbys.com/my/person/icon_reply2.png) no-repeat 0 center;display:inline-block;padding-left:25px;overflow:hidden;}
+.msg-list li{border-bottom:1px solid #E5E5E5;padding:20px 0;position:relative;float:left;width:100%}
+.msg-pic{float:left;width:8%}
+.msg-pic img{width:50px;height:50px}
+.msg-content{float:left;width:80%}
+.msg-content .reply-msg{margin-top:6px;}
+.msg-time{float:right;line-height:15px;color:#999}
+.msg-list a.img-close{top:auto;bottom:15px}
+.message{float:left;width:100%;padding:20px 0;}
+.message li{float:right;margin:6px 0;width:885px;}
+.message li .tou{float:right;height:40px;width:40px;}
+.message li .tou img{border-radius:3px;height:40px;width:40px;}
+.message li .mescont{border:1px solid #DDDDDD;border-radius:3px;float:right;margin-top:2px;padding:8px;position:relative;width:70%;}
+.message li .mescont p{color:#333333;}
+.message li .mescont p font{bottom:0;font-family:tahoma;font-size:10px;line-height:22px;padding-left:20px;position:absolute;right:10px;}
+.message li .mescont p{font-size:14px;line-height:150%;}
+.message li.other .tou img{float:left;}
+.message li.other .mescont{background:none repeat scroll 0 0 #459935;border:0 none;float:left;line-height:27px;margin-left:25px;padding-bottom:20px;}
+.message li.other .mescont p{color:#FFFFFF;font-size:14px; padding:0 10px}
+.message li.other .tou{float:left;}
+.message li.myself .tou img{float:right;}
+.message li.myself .mescont{float:right;margin-right:25px;padding-bottom:20px;}
+.message li.myself .tou{float:right;margin-top:4px;}
+.message li .mescont b{background:url("../img/commbg.gif") no-repeat scroll 0 0;font-size:1px;height:18px;position:absolute;width:10px;}
+.message li.myself .mescont b{right:-10px;}
+.message li.other .mescont b{background-position:right -11px;left:-10px;}
+.mesreply{float:left; width:90%;margin:10px 0 10px 57px;}
+.mesreply textarea{float:left; width:98.5%; padding:2px 5px; border:1px solid #CCC; height:60px; line-height:20px; overflow:hidden}
+.mesreply span{float:right; margin-top:5px}
+.messList .messager .open{background:url("../img/commbg.gif") no-repeat scroll 0 bottom;float:right;height:30px;width:30px;}
+.messList.show .messager .open{background-position:0 -50px;}
+.messList.show .message{display:block;}
+.news-list{border:0;width:100%;}
+.news-list li{width:100%;margin-left:0;}
+.no-msg{height:200px;padding-top:150px!important;text-align:center;background:url(http://img.yjbys.com/my/person/no-msg.png) center 20% no-repeat;display:block;color:#666}
+.no-news{height:100px;padding-top:150px;text-align:center;background:url(http://img.yjbys.com/my/person/no-msg.png) center 35% no-repeat;display:block;color:#666}
+.no-shenqing{height:200px;padding-top:180px;text-align:center;background:url(http://img.yjbys.com/my/person/no-shenqing.png) center 20% no-repeat;display:block;color:#666}
+.no-inbox{height:200px;padding-top:180px;text-align:center;background:url(http://img.yjbys.com/my/person/no-inbox.png) center 20% no-repeat;display:block;color:#666}
+.Medal{height:30px;line-height:30px;display:inline-block;}
+.im-name .Medal{position:absolute;right:20px}
+.headp1 .Medal{position:relative;left:10px;top:7px}
+.Medal i{height:26px;float:left;width:26px;margin:0 3px;}
+.Medal a img{filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");filter:gray(opacity=50);-webkit-filter:grayscale(100%);margin:0 3px;}
+/*±ÍÃ‚Ã· æŒƒ◊÷∂®“Â*/
+body div#titletips{position:absolute;z-index:1000;max-width:200px;width:auto!important;width:auto;background:#EBEBEB;border:1px solid #AEAEAE;box-shadow:0 1px 0 0 #FCFCFC inset;border-radius:3px;text-align:left;padding:5px 8px;}
+body div#titletips p{margin:0;padding:0;color:#222;line-height:22px;position:relative;}
+body div#titletips p em{display:block;margin-top:3px;color:#f60;font-style:normal;font-weight:bold;}
+body div#titletips i.itip{background:url(http://img.yjbys.com/my/person/titletips_i.gif) no-repeat 0 0;position:absolute;top:-5px;left:10px;height:5px;width:11px}
+.Black{background-color:#000000;_background-color:NONE;height:100%;min-height:900px;width:100%;left:0;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;display:none;position:fixed;_position:absolute;top:0;z-index:99;}
+.blackImgBox{display:none;height:600px;left:50%;margin-left:-400px;margin-top:-200px;position:fixed;_position:absolute;top:40%;width:800px;z-index:999;}
+.imgBlack{background:none repeat scroll 0 0 #000000;display:block;height:100%;left:-8px;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;padding:8px;position:absolute;top:-8px;width:100%;z-index:9990;}
+.imgBox{background:none repeat scroll 0 0 #FFFFFF;height:100%;position:absolute;width:100%;z-index:9991;text-align:center;vertical-align:middle;}
+.imgBox .headTit{background:url(http://img.yjbys.com/my/person/hd_bg.png) repeat scroll 0 0 #E9E9E9;float:left;height:35px;line-height:35px;width:100%;}
+.imgBox .headTit font{float:left;padding-left:8px;}
+.imgBox .headTit a.close{display:inline-block;background:url(http://img.yjbys.com/my/person/icon_delsp.gif) no-repeat 0 0;width:10px;height:10px;margin-top:13px;padding-right:10px;float:right;cursor:pointer}
+.imgBox .headTit .close:hover{background-position:0 -41px;}
+.imgPic{float:left;padding:20px;height:500px;text-align:center;width:95%;position:relative;}
+.imgPic img{width:760px;height:515px;position:absolute;top:0;left:0;display:none;}
+.imgPage{display:inline-block;float:left;width:100%;position:absolute;top:45%;left:0;}
+.imgPage a{background:url(http://img.yjbys.com/my/person/page-bg.gif) no-repeat 0 0 #7F7F7F;width:100px;height:55px;opacity:0.3;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;}
+.imgPage a.pageup{float:left;margin-right:10px;background-position:45px center}
+.imgPage a.pagedown{float:right;margin-left:10px;background-position:-100px center}
+.imgPage a:hover{opacity:0.9;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;}
+.White{background-color:#FFF;_background-color:NONE;height:100%;min-height:900px;width:100%;left:0;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;display:none;position:fixed;_position:absolute;top:0;z-index:99;border-radius:3px;}
+.WhiteBox{display:none;height:480px;left:50%;margin-left:-400px;margin-top:-200px;position:fixed;_position:absolute;top:40%;width:800px;z-index:999;}
+.MsgWhite{background:none repeat scroll 0 0 #000000;display:block;height:100%;left:-8px;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;padding:8px;position:absolute;top:-8px;width:100%;z-index:9990;border-radius:3px;}
+.MsgBox{background:none repeat scroll 0 0 #FFFFFF;height:100%;position:absolute;width:100%;z-index:9991;text-align:center;vertical-align:middle;}
+.MsgBox .headTit{background:url(http://img.yjbys.com/my/person/hd_bg.png) repeat scroll 0 0 #E9E9E9;float:left;height:40px;line-height:40px;width:100%;font-size:18px;}
+.MsgBox .headTit font{float:left;padding-left:8px;}
+.MsgBox .headTit a.closeFeedback{display:inline-block;background:url(http://img.yjbys.com/my/person/icon_delsp.gif) no-repeat 0 0;width:10px;height:10px;margin-top:13px;padding-right:10px;float:right;cursor:pointer}
+.MsgBox .headTit .closeFeedback:hover{background-position:0 -41px;}
+.MsgBox td.label{vertical-align:top}
+.MsgBox textarea,.MsgBox input,.MsgBox span.warning{float:left}
+.MsgBox input{width:300px!important;}
+.MsgBox textarea{width:400px!important;max-width:400px!important;height:100px !important;font-size:14px!important;}
+#school_select{display:block;min-height:328px;left:44%;top:29.2%;position:absolute;z-index:9999;}
+#this_school_select{background:#E8F3F7;float:left;width:547px;}
+.school_title{background:url(http://img.yjbys.com/my/person/btn_blue.gif) repeat-x 0 0;float:left;width:100%;height:35px;line-height:35px;border-radius:3px 3px 0 0;}
+.school_title span{float:left;margin-left:10px;color:#FFF}
+.school_title a{float:right;margin-right:10px;width:12px;height:12px;color:#FFF;font-size:16px;}
+#this_school_select ul{float:left;width:96.8%;border:1px solid #B2D7E4;padding:5px 8px;border-radius:0 0 3px 3px;}
+ul.off,div.off{display:none}
+.city_school_select,.city_select_school_select_back,.school_select_school_select_back{position:absolute;right:40px;top:10px;color:#FFF;cursor:pointer}
+.province_select_school_select,.city_select_school_select,.school_select_school_select{float:left;color:#222;font-size:14px;line-height:28px;height:28px;overflow:hidden;border:1px solid #E8F3F7;width:120px;margin:3px 5px;text-align:center;cursor:pointer;}
+.school_select_school{font-size:12px}
+.province_select_school_select:hover,.city_select_school_select:hover,.school_select_school_select:hover{border:1px solid #1B7AAB;background:url(http://img.yjbys.com/my/person/btn_blue.gif) 0 0 repeat-x;color:#FFF;}
+#lenovo_search{display:block;width:255px;left:17.4%%;top:31.2%;position:absolute;border:1px solid #C6C6C6;border-top:0;border-right:1px solid #EEEEEE;border-radius:0 0 3px 3px;z-index:9999;background:none repeat scroll 0 0 #F9F9F9}
+.keyword_select{float:left;width:98%;padding-left:5px;overflow:hidden;height:32px;line-height:32px;border-top:1px solid #EEE;cursor:pointer}
+.keyword_select:hover{border:1px solid #1B7AAB;background:url(http://img.yjbys.com/my/person/btn_blue.gif) 0 0 repeat-x;color:#FFF;}
+#shousuo{top:62px!important;left:30px!important;width:531px !important}
+#shousuo h6{color:#666!important;}
+#shousuo .close{left:480px!important;}
+.Tab1 table a,.Tab2 table a{height:28px;line-height:28px;margin-top:2px}
+.ThankYou{background:url(http://img.yjbys.com/my/person/smiley_happy.png) no-repeat left center;height:50px;line-height:50px;font-size:16px;padding-left:60px;display:inline-block;margin:5px 0 5px 80px;color:#EA660F;font-size:18px;font-weight:600}
+#bg_back{background:none repeat scroll 0 0 #000000;display:none;opacity:0.2;position:fixed;z-index:999;width:100%;min-height:1000px;}
+.senEmaiil{background:none repeat scroll 0 0 #FFFFFF;border:1px solid #DDDDDD;box-shadow:0 0 4px #fff;display:none;position:fixed;width:400px;z-index:9999;left:50%;top:25%;margin-left:-200px}
+.senEmaiil h2{background:none repeat scroll 0 0 #FAFAFA;border-bottom:1px dashed #DDDDDD;float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:14px;height:30px;line-height:30px;text-indent:15px;width:100%;}
+.senEmaiil h2 a{margin-right:10px;position:absolute;right:0;}
+.senEmaiil .jieshoutit{float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:14px;height:40px;line-height:40px;text-indent:15px;width:100%;}
+.senEmaiil .jieshoutit input{font-size:18px;font-weight:600;font-family:"Œ¢»Ì—≈∫⁄";}
+.sentCont{float:left;margin-left:8px;position:relative;}
+.sentTip{position:absolute;right:10px;top:120px;color:#F00;}
+.sentTip a{color:#06C;text-decoration:underline}
+.sentBtn{float:left;padding-bottom:10px;width:100%;}
+.sentBtn input{background:url(http://img.yjbys.com/my/person/aply.gif) no-repeat scroll right center #218bce;color:#FFFFFF;float:left;font-family:"Œ¢»Ì—≈∫⁄";font-size:16px;height:35px;margin-left:15px;text-align:left;text-indent:15px;width:100px;cursor:pointer}
+.sentCont textarea{padding:5px;width:360px;height:80px;border:1px solid #DDD;line-height:25px;overflow:hidden;margin:5px}
+.foot{float:left;width:100%}
+.foot .copyright{color:#434A54;font-size:12px;line-height:2;padding:20px 0 30px;text-align:center;}
+.content_box p{line-height:25px;padding:5px 20px;float:left;color:#222}
+.resume-list-table i.opr{background:url(http://img.yjbys.com/my/person/icon_opr.png) 0 1px no-repeat;height:19px;vertical-align:middle;margin-left:5px;margin-top:-3px;width:19px;display:inline-block}
