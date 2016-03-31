@@ -14,7 +14,7 @@ em,i{font-style:normal;}
 .fl{float:left}
 .fr{float:right}
 .f14{font-size:14px}
-body{font-size:14px;font-family:Microsoft Yahei,"΢���ź�","����";/*background:url(http://img.yjbys.com/my/person/body_bg.png) no-repeat scroll 50% -8px #EDEFEF;*/
+body{font-size:14px;font-family:Microsoft Yahei,"Î¢ÈíÑÅºÚ","ËÎÌå";/*background:url(http://img.yjbys.com/my/person/body_bg.png) no-repeat scroll 50% -8px #EDEFEF;*/
 background:url(http://img.yjbys.com/my/person/bg_body.jpg) repeat #FFF;color:#333;}
 .w-index{width:1000px;clear:both;margin:0 auto;}
 .headline{float:left;width:100%;background:#459935;height:35px;}
@@ -70,7 +70,7 @@ i.icon_resume{background:url(http://img.yjbys.com/my/person/icon_resume_0.gif) n
 .search_city .js{background:url(http://img.yjbys.com/2013/bg.gif) no-repeat scroll -132px -50px #F6F6F6;border-left:1px solid #ddd;border-right:1px solid #ddd;cursor:pointer;float:right;height:38px;width:20%;position:relative;z-index:2;right:-2px}
 .search_query{border:1px solid #CCC;background:#FFF;box-shadow:0px 2px 2px #EEEEEE inset;border-radius:1px;float:left;height:38px;position:relative;border-left:0;left:-2px;width:60%;z-index:1}
 .search_query input{background:none repeat scroll 0 center rgba(0,0,0,0);float:left;height:26px;line-height:24px;padding:6px;padding-left:15px;width:92%;}
-.search_btn{background:#F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;color:#FFFFFF;cursor:pointer;float:left;font:18px/40px "΢���ź�";height:40px;margin-left:5px;width:95px;}
+.search_btn{background:#F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;color:#FFFFFF;cursor:pointer;float:left;font:18px/40px "Î¢ÈíÑÅºÚ";height:40px;margin-left:5px;width:95px;}
 .condition{color:#666666;height:28px;line-height:28px;padding-top:5px;float:left;width:95%;overflow:hidden}
 .condition a{color:#069;display:inline-block;padding:0 6px;height:16px;line-height:16px;border-radius:2px;margin-right:10px;}
 .condition a code{color:#333;font-weight:100;padding:0 5px;position:relative;top:1px;}
@@ -389,13 +389,13 @@ span.help-text{color:#999999;margin-top:8px;display:block;font-size:12px;line-he
 .headinfo .headp1 font{margin-left:10px;font-size:12px;color:#999}
 .headinfo .headp2 code{padding:0 12px;font-size:10px;color:#CCC}
 .headinfo .headp2 a{background-color:#CC0000;border-radius:3px;color:#FFFFFF;margin-left:20px;padding:6px 10px;}
-.fr a.aply{background:none repeat scroll 0 0 #CC0000;border-radius:3px;color:#FFFFFF;float:left;font-family:"΢���ź�";font-size:24px;font-weight:normal;height:80px;line-height:80px;text-align:center;width:180px;}
+.fr a.aply{background:none repeat scroll 0 0 #CC0000;border-radius:3px;color:#FFFFFF;float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:24px;font-weight:normal;height:80px;line-height:80px;text-align:center;width:180px;}
 .sumeMain{padding:30px;float:left;width:95%}
 .sumetit{background:url("../img/jian.gif") no-repeat scroll 20px 0;text-indent:50px;width:100%;float:left;margin-top:20px;}
 .sumecont{margin:15px 0;float:left;width:100%}
-.sumetit span{font-family:"΢���ź�";font-size:18px;font-weight:600;}
+.sumetit span{font-family:"Î¢ÈíÑÅºÚ";font-size:18px;font-weight:600;}
 .sumecont table{margin:0 auto;width:90%;}
-.sumecont table td{font-family:"΢���ź�";font-size:14px;padding:0 10px;}
+.sumecont table td{font-family:"Î¢ÈíÑÅºÚ";font-size:14px;padding:0 10px;}
 table td.tdl{background-color:#F5F5F5;text-align:right;}
 .sumepic img{border:1px solid #CCCCCC;height:140px;padding:2px;width:110px;}
 .sumecont .attchment .doc-ico{float:left;background:url(http://img.yjbys.com/my/person/doc_ico.gif) no-repeat 0 0;width:30px;height:30px;}
@@ -403,8 +403,8 @@ table td.tdl{background-color:#F5F5F5;text-align:right;}
 .sumecont .attchment .file-ico{float:left;background:url(http://img.yjbys.com/my/person/file_ico.gif) no-repeat 0 0;width:30px;height:30px;}
 .sumecont .attchment a{float:left;padding-left:6px;line-height:30px;}
 .rprint{float:left;height:50px;line-height:50px;width:100%;}
-.rprint .shoucang{background:none repeat scroll 0 0 #FF6600;border-radius:3px;color:#FFFFFF;float:left;font-family:"΢���ź�";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:52px;text-align:center;width:80px;}
-.rprint .dayin{background:none repeat scroll 0 0 #339933;border-radius:3px;color:#FFFFFF;float:left;font-family:"΢���ź�";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:30px;text-align:center;width:80px;}
+.rprint .shoucang{background:none repeat scroll 0 0 #FF6600;border-radius:3px;color:#FFFFFF;float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:52px;text-align:center;width:80px;}
+.rprint .dayin{background:none repeat scroll 0 0 #339933;border-radius:3px;color:#FFFFFF;float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:14px;font-weight:normal;height:35px;line-height:35px;margin-left:30px;text-align:center;width:80px;}
 .shoucang:hover,.dayin:hover{opacity:0.8;}
 .letter-nodata{background:url(http://img.yjbys.com/my/person/letter-banner.png) no-repeat scroll 0 40px;height:400px;width:100%;float:left;text-align:center;}
 .letter-nodata .button{background:url(http://img.yjbys.com/my/person/add-1st-letter.png) no-repeat scroll 0 0;display:inline-block;height:42px;width:152px;margin-top:270px;cursor:pointer;text-indent:-9999px}
@@ -416,7 +416,7 @@ a.letter{background:url(http://img.yjbys.com/my/person/icon_letter.gif) no-repea
 .add_letter a{background:url(http://img.yjbys.com/my/person/icon_btn.gif) no-repeat 0 -165px;display:inline-block;width:125px;height:35px}
 .letter-article .letter-title{font-size:22px;display:inline-block;width:100%;background:url(http://img.yjbys.com/my/person/letter-h1.gif) repeat-x left bottom;height:50px;line-height:50px;padding-bottom:6px;position:relative}
 .letter-article .letter-title a{background:url(http://img.yjbys.com/my/person/btn_blue.gif) repeat-x;border-radius:3px;border:1px solid #18678F;font-size:14px;height:35px;line-height:35px;width:100px;margin-left:20px;position:absolute;top:6px;right:10px;color:#FFF !important;text-align:center;display:inline-block;cursor:pointer;}
-.letter-article .letter-content{line-height:32px;font-family:'����';font-size:18px;padding:20px;}
+.letter-article .letter-content{line-height:32px;font-family:'¿¬Ìå';font-size:18px;padding:20px;}
 .bottom_pager{float:right;margin:5px 0;}
 .prev-disabled{background:none repeat scroll 0 0 #FFFFFF;border-radius:3px;color:#CCCCCC;cursor:default;padding:4px 10px 5px;}
 .bottom_pager .current,.bottom_pager .text{border:1px solid #FFFFFF;}
@@ -470,7 +470,7 @@ span.another{font-size:12px;color:#666;font-weight:100;margin-bottom:20px;displa
 .claims li i{background:url(http://img.yjbys.com/my/person/icon_sp.gif) no-repeat scroll center 0;display:block;height:70px;width:240px;}
 .claims .info{line-height:2em;margin:17px auto 24px;padding:0 30px 0 24px;font-size:12px;color:#666}
 .claims .info span{color:#EB6100;}
-.claims .info a.link{margin-left:23px;color:#06C;font-family:'����'}
+.claims .info a.link{margin-left:23px;color:#06C;font-family:'ËÎÌå'}
 .claims .btn-wrapper{float:left;text-align:center;width:100%;}
 .claims .btn-green{background:repeat scroll 0 0 #53C126;border:1px solid #4FAB1D;border-radius:3px;box-shadow:0 1px 0 0 rgba(255,255,255,0.2) inset,0 2px 1px 0 rgba(224,224,224,0.5);color:#FFFFFF;cursor:pointer;display:inline-block;font-size:18px;line-height:1em;min-width:90px;padding:9px 30px 8px;text-align:center;}
 .claims .btn-gray{background:repeat scroll 0 0 #EEE;border:1px solid #CCC;color:#999}
@@ -492,7 +492,7 @@ strong.other{background:none;color:#444;}
 .all-table p span.line{padding:0 15px;color:#999}
 .noborder{border:0 !important}
 .ok-status td{background:#FAFFFB}
-.btn-orange{background:none repeat scroll 0 0 #F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;display:inline-block;width:267px;height:45px;font:18px/45px "΢���ź�";color:#FFF;margin:10px 0;cursor:pointer;}
+.btn-orange{background:none repeat scroll 0 0 #F78015;border:1px solid #EA660F;box-shadow:1px 1px 1px #F98924 inset;display:inline-block;width:267px;height:45px;font:18px/45px "Î¢ÈíÑÅºÚ";color:#FFF;margin:10px 0;cursor:pointer;}
 .msg-table td{line-height:30px;padding:10px;}
 .msg-table a.blue,.msg-list a.blue{font-size:16px}
 .msg-table img{width:55px;height:60px}
@@ -541,7 +541,7 @@ strong.other{background:none;color:#444;}
 .headp1 .Medal{position:relative;left:10px;top:7px}
 .Medal i{height:26px;float:left;width:26px;margin:0 3px;}
 .Medal a img{filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");filter:gray(opacity=50);-webkit-filter:grayscale(100%);margin:0 3px;}
-/*������ʾ���ֶ���*/
+/*±êÌâÌáÊ¾ÎÄ×Ö¶¨Òå*/
 body div#titletips{position:absolute;z-index:1000;max-width:200px;width:auto!important;width:auto;background:#EBEBEB;border:1px solid #AEAEAE;box-shadow:0 1px 0 0 #FCFCFC inset;border-radius:3px;text-align:left;padding:5px 8px;}
 body div#titletips p{margin:0;padding:0;color:#222;line-height:22px;position:relative;}
 body div#titletips p em{display:block;margin-top:3px;color:#f60;font-style:normal;font-weight:bold;}
@@ -594,17 +594,21 @@ ul.off,div.off{display:none}
 .ThankYou{background:url(http://img.yjbys.com/my/person/smiley_happy.png) no-repeat left center;height:50px;line-height:50px;font-size:16px;padding-left:60px;display:inline-block;margin:5px 0 5px 80px;color:#EA660F;font-size:18px;font-weight:600}
 #bg_back{background:none repeat scroll 0 0 #000000;display:none;opacity:0.2;position:fixed;z-index:999;width:100%;min-height:1000px;}
 .senEmaiil{background:none repeat scroll 0 0 #FFFFFF;border:1px solid #DDDDDD;box-shadow:0 0 4px #fff;display:none;position:fixed;width:400px;z-index:9999;left:50%;top:25%;margin-left:-200px}
-.senEmaiil h2{background:none repeat scroll 0 0 #FAFAFA;border-bottom:1px dashed #DDDDDD;float:left;font-family:"΢���ź�";font-size:14px;height:30px;line-height:30px;text-indent:15px;width:100%;}
+.senEmaiil h2{background:none repeat scroll 0 0 #FAFAFA;border-bottom:1px dashed #DDDDDD;float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:14px;height:30px;line-height:30px;text-indent:15px;width:100%;}
 .senEmaiil h2 a{margin-right:10px;position:absolute;right:0;}
-.senEmaiil .jieshoutit{float:left;font-family:"΢���ź�";font-size:14px;height:40px;line-height:40px;text-indent:15px;width:100%;}
-.senEmaiil .jieshoutit input{font-size:18px;font-weight:600;font-family:"΢���ź�";}
+.senEmaiil .jieshoutit{float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:14px;height:40px;line-height:40px;text-indent:15px;width:100%;}
+.senEmaiil .jieshoutit input{font-size:18px;font-weight:600;font-family:"Î¢ÈíÑÅºÚ";}
 .sentCont{float:left;margin-left:8px;position:relative;}
 .sentTip{position:absolute;right:10px;top:120px;color:#F00;}
 .sentTip a{color:#06C;text-decoration:underline}
 .sentBtn{float:left;padding-bottom:10px;width:100%;}
-.sentBtn input{background:url(http://img.yjbys.com/my/person/aply.gif) no-repeat scroll right center #218bce;color:#FFFFFF;float:left;font-family:"΢���ź�";font-size:16px;height:35px;margin-left:15px;text-align:left;text-indent:15px;width:100px;cursor:pointer}
+.sentBtn input{background:url(http://img.yjbys.com/my/person/aply.gif) no-repeat scroll right center #218bce;color:#FFFFFF;float:left;font-family:"Î¢ÈíÑÅºÚ";font-size:16px;height:35px;margin-left:15px;text-align:left;text-indent:15px;width:100px;cursor:pointer}
 .sentCont textarea{padding:5px;width:360px;height:80px;border:1px solid #DDD;line-height:25px;overflow:hidden;margin:5px}
 .foot{float:left;width:100%}
 .foot .copyright{color:#434A54;font-size:12px;line-height:2;padding:20px 0 30px;text-align:center;}
 .content_box p{line-height:25px;padding:5px 20px;float:left;color:#222}
 .resume-list-table i.opr{background:url(http://img.yjbys.com/my/person/icon_opr.png) 0 1px no-repeat;height:19px;vertical-align:middle;margin-left:5px;margin-top:-3px;width:19px;display:inline-block}
+.jyjl p,.gzsqjy p{
+    text-indent: 2em;
+    padding-bottom: 30px;
+}
